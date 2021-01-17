@@ -14,6 +14,10 @@ struct ContentView: View {
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("Austin, TX")
+                    .font(.system(size: 32, weight: .medium, design: .default))
+            }
         }
     }
 }
