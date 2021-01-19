@@ -16,7 +16,7 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Text("Austin, TX")
-                    .font(.system(size: 32, weight: .medium, design: .default))
+                    .font(.system(size: 36, weight: .medium, design: .default))
             }
         }
     }
