@@ -17,6 +17,8 @@ struct ContentView: View {
             VStack {
                 Text("Austin, TX")
                     .font(.system(size: 36, weight: .medium, design: .default))
+                    .padding()
+                Spacer()
             }
         }
     }
